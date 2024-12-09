@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 20vh; 
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px; 
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-left: 20px;
+    font-weight: lighter;
+    color: #E5E7EB;
+}
+
+#cabecalho a {
+    color: #f9faf8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#cabecalho a:hover {
+    color: #F9FAF8;
+    text-decoration: underline;
+}
+
+
+#conteiner {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    height: auto;
+    margin: 20px;
+}
+
+#conteudo {
+    margin-top: 30px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#conteudo img.logo1 {
+    width: 35%; 
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#conteudo p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-top: 20px;
+}
+
+.contact-info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9faf8; 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
+    margin: 30px auto;
+}
+
+.contact-item {
+    margin: 15px 0;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+    width: 100%;
+}
+
+.contact-item h3 {
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 10vh; 
+}
+
+footer p {
+    margin-top: 30px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+#conteiner h2 {
+    color: #000000; 
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+/* Garanta que o body e html não ultrapassem a tela */
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+}

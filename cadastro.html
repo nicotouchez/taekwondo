@@ -1,0 +1,51 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Aula Experimental - Taekwondo</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Agendamento de Aula Experimental</h1>
+    </header>
+
+    <section>
+        <p>Preencha o formulário abaixo para agendar uma aula experimental de Taekwondo:</p>
+
+
+
+<form action="grava.jsp" method="POST">
+    <label for="nome">Nome Completo:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="telefone">Telefone:</label><br>
+    <input type="text" id="telefone" name="telefone" required><br><br>
+
+    <label for="data_nascimento">Data de Nascimento:</label><br>
+    <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+    <label for="aula_id">Escolha a Aula:</label><br>
+    <select id="aula_id" name="aula_id" required>
+        <option value="1">Aula Experimental - Terça-feira, 19:00 às 20:30</option>
+        <option value="2">Aula Experimental - Quinta-feira, 19:00 às 20:30</option>
+        <option value="3">Aula Experimental - Sábado, 09:00 às 10:30</option>
+        <option value="4">Aula Experimental - Domingo, 09:00 às 10:30</option>
+    </select><br><br>
+
+    <button type="submit">Agendar Aula</button>
+</form>
+
+</section>
+
+<footer>
+    <p>&copy; Taekwondo Nova Bonsucesso 2024</p>
+</footer>
+
+</body>
+</html>

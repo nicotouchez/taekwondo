@@ -1,0 +1,6 @@
+http://localhost:8080/Portfolio/cadastro.html
+
+SELECT agendamentos.AgendamentoID, agendamentos.DataAgendamento, aulas.Nome AS nome_aula, aulas.Data AS data_aula, aulas.Horario AS horario_aula, aulas.Local AS local_aula, usuarios.Nome AS nome_usuario, usuarios.Email, usuarios.Telefone
+FROM agendamentos
+JOIN aulas ON agendamentos.AulaID = aulas.AulaID
+JOIN usuarios ON agendamentos.UsuarioID = usuarios.UniqueID;
